@@ -1,2 +1,3 @@
 .data
 cmd/air.log
+tmp/
