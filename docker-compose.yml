@@ -3,7 +3,7 @@ version: '3.1'
 services:
   mysql:
     image: mysql:8.0
-    container_name: dockerMySQL # https://qiita.com/Keyskey/items/a1baa04d6850cc50727c
+    container_name: mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: testdb
